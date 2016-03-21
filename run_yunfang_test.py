@@ -40,6 +40,6 @@ if __name__=='__main__':
     discover=unittest.defaultTestLoader.discover('./yunfang/test_case',pattern='*_sta.py')
     runner.run(discover)
     fp.close() #关闭新生成的报告
-    file_path=new_report('./yunfang/report/') #查找新生成的报告
+    file_path=new_report('./yunfang/report/result/') #查找新生成的报告
     send_mail(file_path)  #调用发邮件模块
 
