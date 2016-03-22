@@ -61,7 +61,4 @@ target/
 #Ipython Notebook
 .ipynb_checkpoints
 
-#My Configuration
-report/
-report/image/
-report/result/
+
